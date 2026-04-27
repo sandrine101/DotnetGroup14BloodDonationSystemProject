@@ -3,9 +3,9 @@
 Project Overview
 
 
-The Blood Donation Management System is a web-based application designed to manage blood donors, hospitals, blood requests, and donations efficiently.
+The Blood Donation Management System is a web based application designed to manage blood donors, hospitals, blood requests, and donations efficiently.
 
-The system provides secure access through role-based authentication and enables real-time tracking of blood availability, ensuring effective coordination between donors and recipients.
+The system provides secure access through role based authentication and enables real time tracking of blood availability, ensuring effective coordination between donors and recipients.
 
 
 
@@ -23,37 +23,68 @@ Manager	manager@blooddonation.com	Manager123!
 Client	client@blooddonation.com	Client123!
 
 
+System Features
 
 
-Features
-
-
-
-Landing Page
 Authentication & Authorization
-Admin / Manager / Client roles
-Role-based page/button/URL access control
-Donors CRUD
-Add, view, update, delete donors
-Excel Export for donor data
-Donations CRUD
-Create donations
-Approve / Reject donation requests
-Excel Export for donations data
-Blood Requests CRUD
-Create and manage blood requests
-Approve / Reject requests
-Excel Export for blood request data
-Hospitals CRUD
+Secure login and registration using ASP.NET Identity
+Role-based access control:
+Admin
+Manager
+Client
+Restrictions applied on:
+Pages
+Buttons (Edit/Delete)
+URLs
+User actions
+
+
+Donor Management
+Create, view, update, and delete donors
+Store donor details including blood type and contact information
+Export donor data to Excel
+
+
+Donation Management
+Record donations
+Approve or reject donation requests
+Automatically update blood inventory
+Export donation records
+
+
+Blood Request Management
+Create blood requests
+Approve or reject requests
+Track request status (Pending, Approved, Completed)
+Export request data
+
+
+Hospital Management
 Manage hospital records
+Link hospitals to blood requests
+
+
 Blood Inventory
-Inventory is automatically updated when donations are approved
-Reports with Charts
-Bar, Line, Doughnut chart visualizations
-Toast Notifications
-User feedback on all actions (success/error/info)
-Uses 5 Linked Tables
-Donors, Donations, BloodRequests, Hospitals, BloodInventory
+Automatically updated after donation approval
+Tracks available blood units by type
+
+
+Reporting & Analytics
+Visual reports using charts:
+Bar charts
+Line charts
+Doughnut charts
+Filter reports by:
+Date
+Blood type
+Export reports to Excel
+
+
+
+ Notifications
+Toast notifications for:
+Successful operations
+Errors and failures
 
 
 Database
