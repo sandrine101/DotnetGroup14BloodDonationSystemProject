@@ -1,5 +1,13 @@
 # DotnetGroup14BloodDonationSystemProject
 
+Project Overview
+
+
+The Blood Donation Management System is a web-based application designed to manage blood donors, hospitals, blood requests, and donations efficiently.
+
+The system provides secure access through role-based authentication and enables real-time tracking of blood availability, ensuring effective coordination between donors and recipients.
+
+
 
 Demo Credentials
 
@@ -7,10 +15,20 @@ Demo Credentials
 
 
 Admin	admin@blooddonation.com	Admin123!
+
+
 Manager	manager@blooddonation.com	Manager123!
+
+
 Client	client@blooddonation.com	Client123!
 
+
+
+
 Features
+
+
+
 Landing Page
 Authentication & Authorization
 Admin / Manager / Client roles
